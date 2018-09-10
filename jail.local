@@ -108,3 +108,13 @@ logpath  = /var/log/apache2/access.log
 maxretry = 3
 bantime  = 3600
 findtime = 600
+
+[apache-nodos]
+
+enabled  = true
+port     = http,https
+filter   = apache-nodos
+logpath  = /var/log/apache2/access.log
+maxretry = 3
+bantime  = 3600
+findtime = 600
