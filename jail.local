@@ -1,6 +1,6 @@
 [DEFAULT]
 
-ignoreip = 127.0.0.1 127.0.0.2 23.227.167.33
+ignoreip = 127.0.0.1 127.0.0.2
 # add your own IP address from which you'll SSH beside 127.0.0.1 separating with a space
 bantime  = 7200
 maxretry = 3
