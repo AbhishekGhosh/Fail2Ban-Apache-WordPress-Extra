@@ -111,7 +111,8 @@ findtime = 600
 
 [apache-nodos]
 
-enabled  = true
+enabled  = false
+# dev
 port     = http,https
 filter   = apache-nodos
 logpath  = /var/log/apache2/access.log
